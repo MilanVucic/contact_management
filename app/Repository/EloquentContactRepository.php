@@ -1,6 +1,8 @@
-<?php namespace ContactManagement\Repository;
+<?php
 
-use ContactManagement\Model\Contact;
+namespace App\Repository;
+
+use App\Model\Contact;
 
 class EloquentContactRepository implements ContactRepositoryInterface
 {

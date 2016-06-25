@@ -1,7 +1,7 @@
 <?php
-namespace ContactManagement\Repository;
+namespace App\Repository;
 
-use ContactManagement\Model\Contact;
+use App\Model\Contact;
 
 interface ContactRepositoryInterface
 {

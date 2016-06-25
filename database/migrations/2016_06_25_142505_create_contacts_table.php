@@ -15,7 +15,7 @@ class CreateContactsTable extends Migration {
 		Schema::create('contacts', function (Blueprint $table) {
 			$table->increments('id');
 			$table->string('name');
-			$table->string('nickname');
+			$table->string('nickname')->nullable();
 			$table->date('date_met');
 			$table->string('notes')->nullable();
 			$table->enum('preferred_contact_method', ['email', 'phone'])->default('email');
@@ -23,7 +23,7 @@ class CreateContactsTable extends Migration {
 			$table->string('phone');
 			$table->string('other_contact_info_type')->nullable();
 			$table->string('other_contact_info_text')->nullable();
-			$table->timestamp('created_at');
+			$table->timestamps();
 		});
 	}
 

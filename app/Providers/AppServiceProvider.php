@@ -1,5 +1,9 @@
 <?php namespace App\Providers;
 
+use App\Model\Contact;
+use App\Repository\ContactRepositoryInterface;
+use App\Repository\EloquentContactRepository;
+use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider {
@@ -29,6 +33,10 @@ class AppServiceProvider extends ServiceProvider {
 			'Illuminate\Contracts\Auth\Registrar',
 			'App\Services\Registrar'
 		);
+
+		$this->app->bind(ContactRepositoryInterface::class, function (Application $app) {
+			return new EloquentContactRepository(new Contact());
+		});
 	}
 
 }

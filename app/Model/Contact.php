@@ -1,6 +1,6 @@
 <?php
 
-namespace ContactManagement\Model;
+namespace App\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -171,9 +171,9 @@ class Contact extends Model
     }
 
     /**
-     * @param DateTime $created_at
+     * @param $created_at
      */
-    public function setCreatedAt(DateTime $created_at)
+    public function setCreatedAt($created_at)
     {
         $this->created_at = $created_at;
     }
