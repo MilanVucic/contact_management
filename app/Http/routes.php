@@ -11,10 +11,15 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
-
-Route::get('home', 'HomeController@index');
+Route::get('/', ['as' => 'homepage', 'uses' => 'ContactController@displayAll']);
 
 Route::get('contact', 'ContactController@addContact');
 
 Route::post('contact', 'ContactController@postAddContact');
+
+Route::get('contact/{id}', 'ContactController@getContact');
+
+Route::get('contact/edit/{id}', 'ContactController@editContact');
+
+Route::post('contact/edit/{id}', 'ContactController@postEditContact');
+

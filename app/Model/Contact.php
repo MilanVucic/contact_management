@@ -16,6 +16,14 @@ class Contact extends Model
     ];
 
     /**
+     * @return int
+     */
+    public function getId()
+    {
+        return (int)$this->id;
+    }
+
+    /**
      * @return mixed
      */
     public function getName()
