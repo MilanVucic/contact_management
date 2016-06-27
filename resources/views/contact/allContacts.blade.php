@@ -1,6 +1,12 @@
 @extends('app')
 
 @section('content')
+    <div>
+        <button class="btn btn-danger" onclick="location.href='/contact'">
+            Add new contact
+        </button>
+        <hr>
+    </div>
     <div class="container">
         @if(count($contacts) == 0)
             <div>
@@ -11,7 +17,7 @@
                 <table id="myTable" class="tablesorter" border="1">
                     <thead>
                         <tr>
-                            <th>Name</th>
+                            <th>Name <span></span></th>
                             <th>Nickname</th>
                             <th>Date Met</th>
                             <th>Date Added</th>
@@ -32,10 +38,16 @@
 
     </div>
 @endsection
+<link href="/js/tablesorter/themes/blue/style.css" rel="stylesheet" type="text/css" />
 
-@section('js')
-    @parent
-        {{--TODO: Fix see how to download jquery--}}
-    {{--<script type="text/javascript" src="/path/to/jquery-latest.js"></script>--}}
-    {{--<script type="text/javascript" src="/path/to/jquery.tablesorter.js"></script>--}}
-@endsection
+    <script type="text/javascript" src="/js/jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="/js/tablesorter/jquery-latest.js"></script>
+    <script type="text/javascript" src="/js/tablesorter/jquery.tablesorter.min.js"></script>
+
+    <script>
+        $(document).ready(function($)
+                {
+                    $("#myTable").tablesorter();
+                }
+        );
+    </script>

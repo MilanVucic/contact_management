@@ -1,21 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f58b3d0c-dff1-4b69-8ac5-ee569f10716f" name="Default" comment="Adding ContactController, add contact working from Postman">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/contact/addContact.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/contact/editContact.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/contact/viewContact.blade.php" />
+    <list default="true" id="f58b3d0c-dff1-4b69-8ac5-ee569f10716f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/js.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/img/external.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/blue.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/green/asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/green/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/green/desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/green/green.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery-3.0.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/addons/pager/jquery.tablesorter.pager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/addons/pager/jquery.tablesorter.pager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/ParseMaster.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/jsmin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/packer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/writeFile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/changelog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/assets/ajax-content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/css/jq.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-empty-table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-extending-defaults.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-meta-headers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-meta-parsers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-meta-sort-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-debug.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-digits.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-sort-force.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-sort-key.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-sort-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-sort-order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-text-extraction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-options-headers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-pager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-parsers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-trigger-sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-triggers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-update-cell.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-widgets.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/js/docs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/js/examples.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/jquery-latest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/jquery.metadata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/jquery.tablesorter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/jquery.tablesorter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/assets/ajax-content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/cell.metadata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/checkbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/colspan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/large.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/lockedOrder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/metadata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/multiple-headers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/pager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/green/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/Contact.php" afterPath="$PROJECT_DIR$/app/Model/Contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/contact/addContact.blade.php" afterPath="$PROJECT_DIR$/resources/views/contact/addContact.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" afterPath="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/contact/editContact.blade.php" afterPath="$PROJECT_DIR$/resources/views/contact/editContact.blade.php" />
     </list>
     <ignored path="contact-management.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5216606">
-              <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+            <state vertical-scroll-proportion="-9.576923">
+              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
                 <element signature="e#40#80#0#PHP" expanded="true" />
               </folding>
@@ -49,11 +103,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AddContactRequest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.423077">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="editContact.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/contact/editContact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.192307">
-              <caret line="43" column="122" selection-start-line="43" selection-start-column="122" selection-end-line="43" selection-end-column="122" />
+            <state vertical-scroll-proportion="-17.384615">
+              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -79,41 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="allContacts.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="allContacts.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/contact/allContacts.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.269231">
-              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Model/Contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedirectIfAuthenticated.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.653847">
-              <caret line="27" column="63" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.6967509">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -122,8 +156,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
-              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="56" />
               <folding>
                 <element signature="e#7#392#0#PHP" expanded="true" />
               </folding>
@@ -134,8 +168,8 @@
       <file leaf-file-name="addContact.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/contact/addContact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="11" />
+            <state vertical-scroll-proportion="-5.923077">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -156,24 +190,24 @@
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken" />
         <option value="$PROJECT_DIR$/app/Repository/ContactRepositoryInterface.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Repository/EloquentContactRepository.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_06_25_142505_create_contacts_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/contact/addContact.blade.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
-        <option value="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" />
         <option value="$PROJECT_DIR$/app/Model/Contact.php" />
         <option value="$PROJECT_DIR$/resources/views/contact/viewContact.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/contact/editContact.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
+        <option value="$PROJECT_DIR$/resources/views/contact/addContact.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/contact/editContact.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" />
       </list>
     </option>
   </component>
@@ -293,6 +327,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tablesorter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tablesorter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -514,7 +628,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466869040175</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added viewing, editing and listing contacts">
+      <created>1466947426053</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1466947426053</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -557,7 +677,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding ContactController, add contact working from Postman" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding ContactController, add contact working from Postman" />
+    <MESSAGE value="Added viewing, editing and listing contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added viewing, editing and listing contacts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -772,14 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77075815">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2692308">
@@ -825,7 +938,7 @@
         <state vertical-scroll-proportion="-18.692308">
           <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
-            <element signature="e#44#80#0#PHP" expanded="true" />
+            <element signature="e#44#80#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -854,14 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/contact/allContacts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.269231">
-          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/Contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384">
@@ -878,14 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/contact/addContact.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/contact/viewContact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.115385">
@@ -894,18 +991,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/contact/editContact.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.192307">
-          <caret line="43" column="122" selection-start-line="43" selection-start-column="122" selection-end-line="43" selection-end-column="122" />
+        <state vertical-scroll-proportion="-15.423077">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="56" />
           <folding>
             <element signature="e#7#392#0#PHP" expanded="true" />
           </folding>
@@ -914,11 +1011,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5216606">
-          <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+        <state vertical-scroll-proportion="-9.576923">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
             <element signature="e#40#80#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/contact/addContact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.923077">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/contact/editContact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.384615">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery-3.0.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/tablesorter/jquery-latest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/contact/allContacts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6967509">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>

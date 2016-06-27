@@ -25,8 +25,6 @@ class AddContactRequest extends Request
     public function rules()
     {
         return [
-            'name' => 'string|required',
-            'nickname'   => 'string',
         ];
     }
 }
