@@ -2,74 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f58b3d0c-dff1-4b69-8ac5-ee569f10716f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/js.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/img/external.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/asc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/blue.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/desc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/green/asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/green/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/green/desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/green/green.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery-3.0.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/addons/pager/jquery.tablesorter.pager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/addons/pager/jquery.tablesorter.pager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/ParseMaster.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/jsmin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/packer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/build/writeFile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/changelog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/assets/ajax-content.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/css/jq.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-ajax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-empty-table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-extending-defaults.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-meta-headers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-meta-parsers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-meta-sort-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-debug.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-digits.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-sort-force.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-sort-key.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-sort-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-sort-order.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-option-text-extraction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-options-headers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-pager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-parsers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-trigger-sort.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-triggers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-update-cell.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/example-widgets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/js/docs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/docs/js/examples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/jquery-latest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/jquery.metadata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/jquery.tablesorter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/jquery.tablesorter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/assets/ajax-content.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/cell.metadata.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/checkbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/colspan.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/large.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/lockedOrder.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/metadata.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/multiple-headers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/tests/pager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/green/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/contact/addContact.blade.php" afterPath="$PROJECT_DIR$/resources/views/contact/addContact.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/style.css" afterPath="$PROJECT_DIR$/public/js/tablesorter/themes/blue/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" afterPath="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/contact/editContact.blade.php" afterPath="$PROJECT_DIR$/resources/views/contact/editContact.blade.php" />
     </list>
     <ignored path="contact-management.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,31 +58,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewContact.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/contact/viewContact.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.115385">
-              <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016_06_25_142505_create_contacts_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_25_142505_create_contacts_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.923077">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="allContacts.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/contact/allContacts.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6967509">
-              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.39711192">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/tablesorter/themes/blue/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="18" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,9 +113,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-11.115385">
               <caret line="17" column="56" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="56" />
-              <folding>
-                <element signature="e#7#392#0#PHP" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -207,6 +160,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
         <option value="$PROJECT_DIR$/resources/views/contact/addContact.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/contact/editContact.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/tablesorter/themes/blue/style.css" />
         <option value="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" />
       </list>
     </option>
@@ -273,60 +228,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="contact-management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contact-management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contact-management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contact-management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contact-management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contact-management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contact-management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,6 +308,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tablesorter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -634,7 +565,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466947426053</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed post bug, added tablesorter">
+      <created>1467061860666</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1467061860666</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -678,7 +615,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding ContactController, add contact working from Postman" />
     <MESSAGE value="Added viewing, editing and listing contacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added viewing, editing and listing contacts" />
+    <MESSAGE value="Fixed post bug, added tablesorter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed post bug, added tablesorter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,14 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1534296">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.10469314">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1003,9 +933,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.115385">
           <caret line="17" column="56" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +968,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1050,15 +978,47 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/tablesorter/themes/blue/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/contact/allContacts.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6967509">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.39711192">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding />
         </state>
       </provider>
