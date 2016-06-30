@@ -1,8 +1,7 @@
 <?php namespace App\Http\Requests;
-
 use Illuminate\Contracts\Auth\Guard;
 
-class AddContactRequest extends Request
+class AddFollowupRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,13 +23,7 @@ class AddContactRequest extends Request
      */
     public function rules()
     {
-        return ['name' => 'required',
-                'nickname' => 'required',
-                'date_met' => 'required',
-                'notes' => 'required',
-                'preferred_contact_method' => 'required',
-                'email' => 'required',
-                'phone' => 'required',
+        return [
         ];
     }
 }

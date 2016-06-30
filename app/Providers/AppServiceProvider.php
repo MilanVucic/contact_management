@@ -1,8 +1,11 @@
 <?php namespace App\Providers;
 
 use App\Model\Contact;
+use App\Model\FollowUp;
 use App\Repository\ContactRepositoryInterface;
 use App\Repository\EloquentContactRepository;
+use App\Repository\EloquentFollowupRepository;
+use App\Repository\FollowupRepositoryInterface;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 
@@ -36,6 +39,9 @@ class AppServiceProvider extends ServiceProvider {
 
 		$this->app->bind(ContactRepositoryInterface::class, function (Application $app) {
 			return new EloquentContactRepository(new Contact());
+		});
+		$this->app->bind(FollowupRepositoryInterface::class, function (Application $app) {
+			return new EloquentFollowupRepository(new FollowUp());
 		});
 	}
 

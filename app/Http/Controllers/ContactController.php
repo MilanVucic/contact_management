@@ -38,9 +38,11 @@ class ContactController extends Controller
     public function getContact($id)
     {
         $contact = $this->contactRepository->find($id);
+        $followup = $contact->followUp()->getResults();
 
         return view('contact.viewContact',[
-            'contact' => $contact
+            'contact' => $contact,
+            'followup' => $followup
         ]);
     }
 

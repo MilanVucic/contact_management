@@ -186,4 +186,9 @@ class Contact extends Model
         $this->created_at = $created_at;
     }
 
+    public function followUp()
+    {
+        return $this->hasOne('App\Model\FollowUp');
+    }
+
 }

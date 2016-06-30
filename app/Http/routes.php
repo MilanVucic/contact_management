@@ -23,3 +23,11 @@ Route::get('contact/edit/{id}', 'ContactController@editContact');
 
 Route::post('contact/edit/{id}', 'ContactController@postEditContact');
 
+Route::get('followup/{contactId}', 'FollowupController@addFollowup');
+
+Route::post('followup/{contactId}', 'FollowupController@postAddFollowup');
+
+Route::get('followup/edit/{id}', 'FollowupController@editFollowup');
+
+Route::post('followup/edit/{id}', 'FollowupController@postEditFollowup');
+
