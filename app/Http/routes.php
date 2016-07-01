@@ -23,6 +23,8 @@ Route::get('contact/edit/{id}', 'ContactController@editContact');
 
 Route::post('contact/edit/{id}', 'ContactController@postEditContact');
 
+Route::get('followups', 'FollowupController@displayAll');
+
 Route::get('followup/{contactId}', 'FollowupController@addFollowup');
 
 Route::post('followup/{contactId}', 'FollowupController@postAddFollowup');

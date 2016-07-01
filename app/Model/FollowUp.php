@@ -187,6 +187,11 @@ class FollowUp extends Model
         $this->preferred_followup_method = $preferred_followup_method;
     }
 
+    public function getCreatedAt()
+    {
+     return $this->created_at;
+    }
+
     /**
      * @return BelongsTo
      */

@@ -29,6 +29,15 @@ class FollowupController extends Controller
         $this->followupRepository = $followupRepository;
     }
 
+    public function displayAll()
+    {
+        $followups = $this->followupRepository->getAll();
+
+        return view('followup.allFollowups', [
+            'followups' => $followups
+        ]);
+    }
+
     public function addFollowup($contactId)
     {
         return view('followup.addFollowup', [

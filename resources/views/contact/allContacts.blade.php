@@ -2,8 +2,11 @@
 
 @section('content')
     <div>
-        <button class="btn btn-danger" onclick="location.href='/contact'">
+        <button class="btn btn-danger" style="margin-left: 115px" onclick="location.href='/contact'">
             Add new contact
+        </button>
+        <button class="btn btn-info" style="float: inherit;" onclick="location.href='/followups'">
+            See all follow-ups
         </button>
         <hr>
     </div>

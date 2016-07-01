@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f58b3d0c-dff1-4b69-8ac5-ee569f10716f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/FollowupController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Requests/AddFollowupRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Model/FollowUp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Repository/EloquentFollowupRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Repository/FollowupRepositoryInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2016_06_30_143851_create_followups_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/followup/addFollowup.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/followup/editFollowup.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/followup/allFollowups.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/FollowupController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FollowupController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/Contact.php" afterPath="$PROJECT_DIR$/app/Model/Contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/contact/viewContact.blade.php" afterPath="$PROJECT_DIR$/resources/views/contact/viewContact.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/FollowUp.php" afterPath="$PROJECT_DIR$/app/Model/FollowUp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" afterPath="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" />
     </list>
     <ignored path="contact-management.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +32,8 @@
       <file leaf-file-name="FollowUp.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Model/FollowUp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9454546">
-              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="123" column="30" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="30" />
               <folding>
                 <element signature="e#28#67#0#PHP" expanded="true" />
               </folding>
@@ -53,10 +44,44 @@
       <file leaf-file-name="FollowupController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FollowupController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.538462">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#39#80#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allFollowups.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/followup/allFollowups.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.2545455">
+              <caret line="23" column="133" selection-start-line="23" selection-start-column="133" selection-end-line="23" selection-end-column="133" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allContacts.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/contact/allContacts.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12274368">
+              <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#button#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.384615">
+              <caret line="35" column="5" selection-start-line="28" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#40#80#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,29 +110,17 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="57" column="39" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="39" />
-              <folding>
-                <element signature="e#40#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewContact.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="viewContact.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/contact/viewContact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29422382">
+            <state vertical-scroll-proportion="-6.269231">
               <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
               <folding>
                 <element signature="e#92#125#0#HTML" expanded="true" />
@@ -154,7 +167,6 @@
         <option value="$PROJECT_DIR$/resources/views/contact/editContact.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/public/js/tablesorter/themes/blue/style.css" />
-        <option value="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_06_30_143851_create_followups_table.php" />
         <option value="$PROJECT_DIR$/app/Repository/FollowupRepositoryInterface.php" />
@@ -162,14 +174,16 @@
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/AddFollowupRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
-        <option value="$PROJECT_DIR$/app/Model/FollowUp.php" />
         <option value="$PROJECT_DIR$/public/css/app.css" />
         <option value="$PROJECT_DIR$/app/Repository/EloquentFollowupRepository.php" />
         <option value="$PROJECT_DIR$/resources/views/followup/editFollowup.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/followup/addFollowup.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FollowupController.php" />
         <option value="$PROJECT_DIR$/resources/views/contact/viewContact.blade.php" />
+        <option value="$PROJECT_DIR$/app/Model/FollowUp.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/followup/allFollowups.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FollowupController.php" />
+        <option value="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" />
       </list>
     </option>
   </component>
@@ -439,7 +453,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="el&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Repository/EloquentContactRepository.php&#10;coco&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Http/Controllers/ContactController.php&#10;routes&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Http/routes.php&#10;follow&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Model/FollowUp.php&#10;controller&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Http/Controllers/ContactController.php&#10;followups&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/database/migrations/2016_06_30_143851_create_followups_table.php&#10;appser&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Providers/AppServiceProvider.php&#10;contactsta&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/database/migrations/2016_06_25_142505_create_contacts_table.php&#10;rou&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Http/routes.php&#10;contact&#9;null&#9;null&#10;build\&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/vendor/phpunit/php-code-coverage/build&#10;build&#9;null&#9;null&#10;AuthenticateWithBasicAut&#9;null&#9;null&#10;Authenticate&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Http/Middleware/Authenticate.php&#10;AuthenticatesAndRegistersUsers&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php&#10;registerusers.php&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php&#10;kerne&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Kernel.php&#10;conta&#9;null&#9;null&#10;appservi&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Http/routes.php&#10;el&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Repository/EloquentContactRepository.php&#10;coco&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Http/Controllers/ContactController.php&#10;follow&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Model/FollowUp.php&#10;controller&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Http/Controllers/ContactController.php&#10;followups&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/database/migrations/2016_06_30_143851_create_followups_table.php&#10;appser&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Providers/AppServiceProvider.php&#10;contactsta&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/database/migrations/2016_06_25_142505_create_contacts_table.php&#10;rou&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Http/routes.php&#10;contact&#9;null&#9;null&#10;build\&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/vendor/phpunit/php-code-coverage/build&#10;build&#9;null&#9;null&#10;AuthenticateWithBasicAut&#9;null&#9;null&#10;Authenticate&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/app/Http/Middleware/Authenticate.php&#10;AuthenticatesAndRegistersUsers&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php&#10;registerusers.php&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php&#10;kerne&#9;FILE&#9;file://C:/Users/vucic/Develpoment/Code/upwork/contact-management/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Kernel.php&#10;conta&#9;null&#9;null&#10;appservi&#9;null&#9;null" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="143" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -524,7 +538,13 @@
       <option name="project" value="LOCAL" />
       <updated>1467297061407</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Follow-up and all the logic behind it">
+      <created>1467318718737</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1467318718737</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -570,7 +590,8 @@
     <MESSAGE value="Added viewing, editing and listing contacts" />
     <MESSAGE value="Fixed post bug, added tablesorter" />
     <MESSAGE value="A bit of styling added" />
-    <option name="LAST_COMMIT_MESSAGE" value="A bit of styling added" />
+    <MESSAGE value="Added Follow-up and all the logic behind it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Follow-up and all the logic behind it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,13 +600,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2637931">
@@ -786,14 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/contact/allContacts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39711192">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/contact/editContact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8158845">
@@ -908,16 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/FollowUp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9454546">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="e#28#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Repository/EloquentFollowupRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1046932">
@@ -950,16 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="57" column="39" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="39" />
-          <folding>
-            <element signature="e#40#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/AddFollowupRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384">
@@ -976,30 +962,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/contact/viewContact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.269231">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <element signature="e#92#125#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="35" column="5" selection-start-line="28" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/FollowUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="123" column="30" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="30" />
+          <folding>
+            <element signature="e#28#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/followup/allFollowups.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2545455">
+          <caret line="23" column="133" selection-start-line="23" selection-start-column="133" selection-end-line="23" selection-end-column="133" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FollowupController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.538462">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#39#80#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/contact/viewContact.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/contact/allContacts.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29422382">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.12274368">
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
           <folding>
-            <element signature="e#92#125#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
