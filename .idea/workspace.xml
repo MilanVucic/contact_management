@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f58b3d0c-dff1-4b69-8ac5-ee569f10716f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/followup/allFollowups.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/FollowupController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FollowupController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/FollowUp.php" afterPath="$PROJECT_DIR$/app/Model/FollowUp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" afterPath="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
     </list>
     <ignored path="contact-management.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,14 +59,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="allContacts.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="allContacts.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/contact/allContacts.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12274368">
+            <state vertical-scroll-proportion="-2.6153846">
               <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#button#1;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6931408">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,7 +118,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.461538">
               <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-              <folding />
+              <folding>
+                <element signature="e#7#392#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,16 +133,6 @@
               <folding>
                 <element signature="e#92#125#0#HTML" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editFollowup.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/followup/editFollowup.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.769231">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -165,7 +163,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/resources/views/contact/addContact.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/contact/editContact.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/public/js/tablesorter/themes/blue/style.css" />
         <option value="$PROJECT_DIR$/app/Http/Requests/AddContactRequest.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_06_30_143851_create_followups_table.php" />
@@ -184,6 +181,7 @@
         <option value="$PROJECT_DIR$/resources/views/followup/allFollowups.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FollowupController.php" />
         <option value="$PROJECT_DIR$/resources/views/contact/allContacts.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
       </list>
     </option>
   </component>
@@ -544,7 +542,13 @@
       <option name="project" value="LOCAL" />
       <updated>1467318718737</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added list of follow-ups">
+      <created>1467380625892</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1467380625892</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -591,7 +595,8 @@
     <MESSAGE value="Fixed post bug, added tablesorter" />
     <MESSAGE value="A bit of styling added" />
     <MESSAGE value="Added Follow-up and all the logic behind it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Follow-up and all the logic behind it" />
+    <MESSAGE value="Added list of follow-ups" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added list of follow-ups" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -816,14 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24548736">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -996,7 +993,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.461538">
           <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,11 +1019,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/contact/allContacts.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12274368">
+        <state vertical-scroll-proportion="-2.6153846">
           <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#button#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6931408">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
